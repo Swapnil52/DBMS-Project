@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		557A0C5A1E990297005AD7E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557A0C591E990297005AD7E5 /* AppDelegate.swift */; };
+		557A0C5C1E990297005AD7E5 /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557A0C5B1E990297005AD7E5 /* loginViewController.swift */; };
+		557A0C5F1E990297005AD7E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 557A0C5D1E990297005AD7E5 /* Main.storyboard */; };
+		557A0C611E990297005AD7E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 557A0C601E990297005AD7E5 /* Assets.xcassets */; };
+		557A0C641E990297005AD7E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 557A0C621E990297005AD7E5 /* LaunchScreen.storyboard */; };
+		557A0C6F1E990297005AD7E5 /* McDonald_s_DBMSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557A0C6E1E990297005AD7E5 /* McDonald_s_DBMSTests.swift */; };
+		557A0C7A1E990297005AD7E5 /* McDonald_s_DBMSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557A0C791E990297005AD7E5 /* McDonald_s_DBMSUITests.swift */; };
+		557A0C881E990419005AD7E5 /* welcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557A0C871E990419005AD7E5 /* welcomeView.swift */; };
+		557A0C8A1E99360B005AD7E5 /* menuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557A0C891E99360B005AD7E5 /* menuViewController.swift */; };
+		557A0C8C1E993614005AD7E5 /* menuItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557A0C8B1E993614005AD7E5 /* menuItemCell.swift */; };
+		557A0C8E1E993900005AD7E5 /* invoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557A0C8D1E993900005AD7E5 /* invoiceViewController.swift */; };
+		557A0C901E993D53005AD7E5 /* settingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557A0C8F1E993D53005AD7E5 /* settingsViewController.swift */; };
+		557A0CA01E994775005AD7E5 /* COS.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 557A0C911E994775005AD7E5 /* COS.jpg */; };
+		557A0CA11E994775005AD7E5 /* COM.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 557A0C921E994775005AD7E5 /* COM.jpg */; };
+		557A0CA21E994775005AD7E5 /* FFM.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 557A0C931E994775005AD7E5 /* FFM.jpg */; };
+		557A0CA31E994775005AD7E5 /* FFS.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 557A0C941E994775005AD7E5 /* FFS.jpg */; };
+		557A0CA41E994775005AD7E5 /* ATR.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 557A0C951E994775005AD7E5 /* ATR.jpg */; };
+		557A0CA51E994775005AD7E5 /* CHR.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 557A0C961E994775005AD7E5 /* CHR.jpg */; };
+		557A0CA61E994775005AD7E5 /* COL.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 557A0C971E994775005AD7E5 /* COL.jpg */; };
+		557A0CA71E994775005AD7E5 /* FFL.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 557A0C981E994775005AD7E5 /* FFL.jpg */; };
+		557A0CA81E994775005AD7E5 /* FLR.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 557A0C991E994775005AD7E5 /* FLR.jpg */; };
+		557A0CA91E994775005AD7E5 /* HCR.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 557A0C9A1E994775005AD7E5 /* HCR.jpg */; };
+		557A0CAA1E994775005AD7E5 /* ITR.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 557A0C9B1E994775005AD7E5 /* ITR.jpg */; };
+		557A0CAB1E994775005AD7E5 /* PFR.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 557A0C9C1E994775005AD7E5 /* PFR.jpg */; };
+		557A0CAC1E994775005AD7E5 /* SCR.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 557A0C9D1E994775005AD7E5 /* SCR.jpg */; };
+		557A0CAD1E994775005AD7E5 /* SWR.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 557A0C9E1E994775005AD7E5 /* SWR.jpg */; };
+		557A0CAE1E994775005AD7E5 /* VER.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 557A0C9F1E994775005AD7E5 /* VER.jpg */; };
+		557A0CB21E9947A9005AD7E5 /* plus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 557A0CB01E9947A9005AD7E5 /* plus@2x.png */; };
+		557A0CB31E9947A9005AD7E5 /* minus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 557A0CB11E9947A9005AD7E5 /* minus@2x.png */; };
+		55A0CF3B1E99F2A7006E19F0 /* settings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A0CF3A1E99F2A7006E19F0 /* settings@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		557A0C6B1E990297005AD7E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 557A0C4E1E990297005AD7E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 557A0C551E990297005AD7E5;
+			remoteInfo = "McDonald's DBMS";
+		};
+		557A0C761E990297005AD7E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 557A0C4E1E990297005AD7E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 557A0C551E990297005AD7E5;
+			remoteInfo = "McDonald's DBMS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		557A0C561E990297005AD7E5 /* McDonalds Online.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "McDonalds Online.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		557A0C591E990297005AD7E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		557A0C5B1E990297005AD7E5 /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		557A0C5E1E990297005AD7E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		557A0C601E990297005AD7E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		557A0C631E990297005AD7E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		557A0C651E990297005AD7E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		557A0C6A1E990297005AD7E5 /* McDonalds OnlineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "McDonalds OnlineTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		557A0C6E1E990297005AD7E5 /* McDonald_s_DBMSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McDonald_s_DBMSTests.swift; sourceTree = "<group>"; };
+		557A0C701E990297005AD7E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		557A0C751E990297005AD7E5 /* McDonalds OnlineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "McDonalds OnlineUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		557A0C791E990297005AD7E5 /* McDonald_s_DBMSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McDonald_s_DBMSUITests.swift; sourceTree = "<group>"; };
+		557A0C7B1E990297005AD7E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		557A0C871E990419005AD7E5 /* welcomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = welcomeView.swift; sourceTree = "<group>"; };
+		557A0C891E99360B005AD7E5 /* menuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = menuViewController.swift; sourceTree = "<group>"; };
+		557A0C8B1E993614005AD7E5 /* menuItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = menuItemCell.swift; sourceTree = "<group>"; };
+		557A0C8D1E993900005AD7E5 /* invoiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = invoiceViewController.swift; sourceTree = "<group>"; };
+		557A0C8F1E993D53005AD7E5 /* settingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = settingsViewController.swift; sourceTree = "<group>"; };
+		557A0C911E994775005AD7E5 /* COS.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = COS.jpg; sourceTree = "<group>"; };
+		557A0C921E994775005AD7E5 /* COM.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = COM.jpg; sourceTree = "<group>"; };
+		557A0C931E994775005AD7E5 /* FFM.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FFM.jpg; sourceTree = "<group>"; };
+		557A0C941E994775005AD7E5 /* FFS.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FFS.jpg; sourceTree = "<group>"; };
+		557A0C951E994775005AD7E5 /* ATR.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ATR.jpg; sourceTree = "<group>"; };
+		557A0C961E994775005AD7E5 /* CHR.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CHR.jpg; sourceTree = "<group>"; };
+		557A0C971E994775005AD7E5 /* COL.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = COL.jpg; sourceTree = "<group>"; };
+		557A0C981E994775005AD7E5 /* FFL.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FFL.jpg; sourceTree = "<group>"; };
+		557A0C991E994775005AD7E5 /* FLR.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FLR.jpg; sourceTree = "<group>"; };
+		557A0C9A1E994775005AD7E5 /* HCR.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HCR.jpg; sourceTree = "<group>"; };
+		557A0C9B1E994775005AD7E5 /* ITR.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ITR.jpg; sourceTree = "<group>"; };
+		557A0C9C1E994775005AD7E5 /* PFR.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PFR.jpg; sourceTree = "<group>"; };
+		557A0C9D1E994775005AD7E5 /* SCR.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SCR.jpg; sourceTree = "<group>"; };
+		557A0C9E1E994775005AD7E5 /* SWR.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SWR.jpg; sourceTree = "<group>"; };
+		557A0C9F1E994775005AD7E5 /* VER.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = VER.jpg; sourceTree = "<group>"; };
+		557A0CB01E9947A9005AD7E5 /* plus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plus@2x.png"; sourceTree = "<group>"; };
+		557A0CB11E9947A9005AD7E5 /* minus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "minus@2x.png"; sourceTree = "<group>"; };
+		55A0CF3A1E99F2A7006E19F0 /* settings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settings@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		557A0C531E990297005AD7E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		557A0C671E990297005AD7E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		557A0C721E990297005AD7E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		557A0C4D1E990297005AD7E5 = {
+			isa = PBXGroup;
+			children = (
+				557A0C581E990297005AD7E5 /* McDonald's DBMS */,
+				557A0C6D1E990297005AD7E5 /* McDonald's DBMSTests */,
+				557A0C781E990297005AD7E5 /* McDonald's DBMSUITests */,
+				557A0C571E990297005AD7E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		557A0C571E990297005AD7E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				557A0C561E990297005AD7E5 /* McDonalds Online.app */,
+				557A0C6A1E990297005AD7E5 /* McDonalds OnlineTests.xctest */,
+				557A0C751E990297005AD7E5 /* McDonalds OnlineUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		557A0C581E990297005AD7E5 /* McDonald's DBMS */ = {
+			isa = PBXGroup;
+			children = (
+				557A0CAF1E994780005AD7E5 /* Image Assets */,
+				557A0C591E990297005AD7E5 /* AppDelegate.swift */,
+				557A0C8F1E993D53005AD7E5 /* settingsViewController.swift */,
+				557A0C5B1E990297005AD7E5 /* loginViewController.swift */,
+				557A0C891E99360B005AD7E5 /* menuViewController.swift */,
+				557A0C8D1E993900005AD7E5 /* invoiceViewController.swift */,
+				557A0C8B1E993614005AD7E5 /* menuItemCell.swift */,
+				557A0C871E990419005AD7E5 /* welcomeView.swift */,
+				557A0C5D1E990297005AD7E5 /* Main.storyboard */,
+				557A0C601E990297005AD7E5 /* Assets.xcassets */,
+				557A0C621E990297005AD7E5 /* LaunchScreen.storyboard */,
+				557A0C651E990297005AD7E5 /* Info.plist */,
+			);
+			path = "McDonald's DBMS";
+			sourceTree = "<group>";
+		};
+		557A0C6D1E990297005AD7E5 /* McDonald's DBMSTests */ = {
+			isa = PBXGroup;
+			children = (
+				557A0C6E1E990297005AD7E5 /* McDonald_s_DBMSTests.swift */,
+				557A0C701E990297005AD7E5 /* Info.plist */,
+			);
+			path = "McDonald's DBMSTests";
+			sourceTree = "<group>";
+		};
+		557A0C781E990297005AD7E5 /* McDonald's DBMSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				557A0C791E990297005AD7E5 /* McDonald_s_DBMSUITests.swift */,
+				557A0C7B1E990297005AD7E5 /* Info.plist */,
+			);
+			path = "McDonald's DBMSUITests";
+			sourceTree = "<group>";
+		};
+		557A0CAF1E994780005AD7E5 /* Image Assets */ = {
+			isa = PBXGroup;
+			children = (
+				557A0C911E994775005AD7E5 /* COS.jpg */,
+				557A0C921E994775005AD7E5 /* COM.jpg */,
+				557A0C931E994775005AD7E5 /* FFM.jpg */,
+				557A0C941E994775005AD7E5 /* FFS.jpg */,
+				557A0C951E994775005AD7E5 /* ATR.jpg */,
+				557A0C961E994775005AD7E5 /* CHR.jpg */,
+				557A0C971E994775005AD7E5 /* COL.jpg */,
+				557A0C981E994775005AD7E5 /* FFL.jpg */,
+				557A0C991E994775005AD7E5 /* FLR.jpg */,
+				557A0C9A1E994775005AD7E5 /* HCR.jpg */,
+				557A0C9B1E994775005AD7E5 /* ITR.jpg */,
+				557A0C9C1E994775005AD7E5 /* PFR.jpg */,
+				557A0C9D1E994775005AD7E5 /* SCR.jpg */,
+				557A0C9E1E994775005AD7E5 /* SWR.jpg */,
+				557A0C9F1E994775005AD7E5 /* VER.jpg */,
+				557A0CB01E9947A9005AD7E5 /* plus@2x.png */,
+				557A0CB11E9947A9005AD7E5 /* minus@2x.png */,
+				55A0CF3A1E99F2A7006E19F0 /* settings@2x.png */,
+			);
+			name = "Image Assets";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		557A0C551E990297005AD7E5 /* McDonalds Online */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 557A0C7E1E990297005AD7E5 /* Build configuration list for PBXNativeTarget "McDonalds Online" */;
+			buildPhases = (
+				557A0C521E990297005AD7E5 /* Sources */,
+				557A0C531E990297005AD7E5 /* Frameworks */,
+				557A0C541E990297005AD7E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "McDonalds Online";
+			productName = "McDonald's DBMS";
+			productReference = 557A0C561E990297005AD7E5 /* McDonalds Online.app */;
+			productType = "com.apple.product-type.application";
+		};
+		557A0C691E990297005AD7E5 /* McDonalds OnlineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 557A0C811E990297005AD7E5 /* Build configuration list for PBXNativeTarget "McDonalds OnlineTests" */;
+			buildPhases = (
+				557A0C661E990297005AD7E5 /* Sources */,
+				557A0C671E990297005AD7E5 /* Frameworks */,
+				557A0C681E990297005AD7E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				557A0C6C1E990297005AD7E5 /* PBXTargetDependency */,
+			);
+			name = "McDonalds OnlineTests";
+			productName = "McDonald's DBMSTests";
+			productReference = 557A0C6A1E990297005AD7E5 /* McDonalds OnlineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		557A0C741E990297005AD7E5 /* McDonalds OnlineUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 557A0C841E990297005AD7E5 /* Build configuration list for PBXNativeTarget "McDonalds OnlineUITests" */;
+			buildPhases = (
+				557A0C711E990297005AD7E5 /* Sources */,
+				557A0C721E990297005AD7E5 /* Frameworks */,
+				557A0C731E990297005AD7E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				557A0C771E990297005AD7E5 /* PBXTargetDependency */,
+			);
+			name = "McDonalds OnlineUITests";
+			productName = "McDonald's DBMSUITests";
+			productReference = 557A0C751E990297005AD7E5 /* McDonalds OnlineUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		557A0C4E1E990297005AD7E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Swapnil Dhanwal";
+				TargetAttributes = {
+					557A0C551E990297005AD7E5 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 3A9TH8N8KH;
+						ProvisioningStyle = Automatic;
+					};
+					557A0C691E990297005AD7E5 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 3A9TH8N8KH;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 557A0C551E990297005AD7E5;
+					};
+					557A0C741E990297005AD7E5 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 3A9TH8N8KH;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 557A0C551E990297005AD7E5;
+					};
+				};
+			};
+			buildConfigurationList = 557A0C511E990297005AD7E5 /* Build configuration list for PBXProject "McDonalds Online" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 557A0C4D1E990297005AD7E5;
+			productRefGroup = 557A0C571E990297005AD7E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				557A0C551E990297005AD7E5 /* McDonalds Online */,
+				557A0C691E990297005AD7E5 /* McDonalds OnlineTests */,
+				557A0C741E990297005AD7E5 /* McDonalds OnlineUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		557A0C541E990297005AD7E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				557A0C641E990297005AD7E5 /* LaunchScreen.storyboard in Resources */,
+				557A0C611E990297005AD7E5 /* Assets.xcassets in Resources */,
+				557A0CA31E994775005AD7E5 /* FFS.jpg in Resources */,
+				557A0C5F1E990297005AD7E5 /* Main.storyboard in Resources */,
+				557A0CA61E994775005AD7E5 /* COL.jpg in Resources */,
+				557A0CAA1E994775005AD7E5 /* ITR.jpg in Resources */,
+				557A0CA21E994775005AD7E5 /* FFM.jpg in Resources */,
+				557A0CA81E994775005AD7E5 /* FLR.jpg in Resources */,
+				557A0CAD1E994775005AD7E5 /* SWR.jpg in Resources */,
+				557A0CAE1E994775005AD7E5 /* VER.jpg in Resources */,
+				557A0CA41E994775005AD7E5 /* ATR.jpg in Resources */,
+				557A0CAB1E994775005AD7E5 /* PFR.jpg in Resources */,
+				557A0CB21E9947A9005AD7E5 /* plus@2x.png in Resources */,
+				557A0CA51E994775005AD7E5 /* CHR.jpg in Resources */,
+				557A0CA11E994775005AD7E5 /* COM.jpg in Resources */,
+				557A0CA91E994775005AD7E5 /* HCR.jpg in Resources */,
+				55A0CF3B1E99F2A7006E19F0 /* settings@2x.png in Resources */,
+				557A0CA71E994775005AD7E5 /* FFL.jpg in Resources */,
+				557A0CB31E9947A9005AD7E5 /* minus@2x.png in Resources */,
+				557A0CAC1E994775005AD7E5 /* SCR.jpg in Resources */,
+				557A0CA01E994775005AD7E5 /* COS.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		557A0C681E990297005AD7E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		557A0C731E990297005AD7E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		557A0C521E990297005AD7E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				557A0C5C1E990297005AD7E5 /* loginViewController.swift in Sources */,
+				557A0C5A1E990297005AD7E5 /* AppDelegate.swift in Sources */,
+				557A0C8E1E993900005AD7E5 /* invoiceViewController.swift in Sources */,
+				557A0C881E990419005AD7E5 /* welcomeView.swift in Sources */,
+				557A0C8C1E993614005AD7E5 /* menuItemCell.swift in Sources */,
+				557A0C8A1E99360B005AD7E5 /* menuViewController.swift in Sources */,
+				557A0C901E993D53005AD7E5 /* settingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		557A0C661E990297005AD7E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				557A0C6F1E990297005AD7E5 /* McDonald_s_DBMSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		557A0C711E990297005AD7E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				557A0C7A1E990297005AD7E5 /* McDonald_s_DBMSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		557A0C6C1E990297005AD7E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 557A0C551E990297005AD7E5 /* McDonalds Online */;
+			targetProxy = 557A0C6B1E990297005AD7E5 /* PBXContainerItemProxy */;
+		};
+		557A0C771E990297005AD7E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 557A0C551E990297005AD7E5 /* McDonalds Online */;
+			targetProxy = 557A0C761E990297005AD7E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		557A0C5D1E990297005AD7E5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				557A0C5E1E990297005AD7E5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		557A0C621E990297005AD7E5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				557A0C631E990297005AD7E5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		557A0C7C1E990297005AD7E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		557A0C7D1E990297005AD7E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		557A0C7F1E990297005AD7E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3A9TH8N8KH;
+				INFOPLIST_FILE = "McDonald's DBMS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Swapnil-Dhanwal..McDonald-s-DBMS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		557A0C801E990297005AD7E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3A9TH8N8KH;
+				INFOPLIST_FILE = "McDonald's DBMS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Swapnil-Dhanwal..McDonald-s-DBMS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		557A0C821E990297005AD7E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3A9TH8N8KH;
+				INFOPLIST_FILE = "McDonald's DBMSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Swapnil-Dhanwal..McDonald-s-DBMSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/McDonalds Online.app/McDonalds Online";
+			};
+			name = Debug;
+		};
+		557A0C831E990297005AD7E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3A9TH8N8KH;
+				INFOPLIST_FILE = "McDonald's DBMSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Swapnil-Dhanwal..McDonald-s-DBMSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/McDonalds Online.app/McDonalds Online";
+			};
+			name = Release;
+		};
+		557A0C851E990297005AD7E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3A9TH8N8KH;
+				INFOPLIST_FILE = "McDonald's DBMSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Swapnil-Dhanwal..McDonald-s-DBMSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "McDonald's DBMS";
+			};
+			name = Debug;
+		};
+		557A0C861E990297005AD7E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3A9TH8N8KH;
+				INFOPLIST_FILE = "McDonald's DBMSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Swapnil-Dhanwal..McDonald-s-DBMSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "McDonald's DBMS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		557A0C511E990297005AD7E5 /* Build configuration list for PBXProject "McDonalds Online" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				557A0C7C1E990297005AD7E5 /* Debug */,
+				557A0C7D1E990297005AD7E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		557A0C7E1E990297005AD7E5 /* Build configuration list for PBXNativeTarget "McDonalds Online" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				557A0C7F1E990297005AD7E5 /* Debug */,
+				557A0C801E990297005AD7E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		557A0C811E990297005AD7E5 /* Build configuration list for PBXNativeTarget "McDonalds OnlineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				557A0C821E990297005AD7E5 /* Debug */,
+				557A0C831E990297005AD7E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		557A0C841E990297005AD7E5 /* Build configuration list for PBXNativeTarget "McDonalds OnlineUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				557A0C851E990297005AD7E5 /* Debug */,
+				557A0C861E990297005AD7E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 557A0C4E1E990297005AD7E5 /* Project object */;
+}
