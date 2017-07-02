@@ -33,4 +33,8 @@ You will need:
 
 # Project Maintainers
 This repository is actively maintained by Swapnil, Vishnu and Tanya. For any queries, please send an email on:
-swapnildhanwal@hotmail.com
+*swapnildhanwal@hotmail.com*
+
+*tanya.agarwal23696@gmail.com*
+
+*vishnubhaskar.vb@gmail.com*
