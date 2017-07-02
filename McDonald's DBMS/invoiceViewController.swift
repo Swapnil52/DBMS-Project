@@ -113,14 +113,14 @@ class invoiceViewController: UIViewController {
             }
             
         }
-        str = "Total\t14.0% VAT\n"
+        str = "Total\t18.0% GST\n"
         if let f = UIFont(name: "Avenir Book", size: 18)
         {
             
             s.append(NSMutableAttributedString(string: str, attributes: [NSParagraphStyleAttributeName : paragraphStyle, NSFontAttributeName : f, NSUnderlineStyleAttributeName : NSUnderlineStyle.styleThick.rawValue]))
-            str = "\(total)\t\(Float(total) * 1.14)"
+            str = "\(total)\t\(Float(total) * 1.18)"
             s.append(NSMutableAttributedString(string: str, attributes: [NSParagraphStyleAttributeName : paragraphStyle, NSFontAttributeName : f]))
-            self.totalAmount = Int(Float(total) * 1.14)
+            self.totalAmount = Int(Float(total) * 1.18)
             
         }
         
