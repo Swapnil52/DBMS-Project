@@ -1,7 +1,11 @@
 # DBMS-Project
 
-## Index
- - [Problem statement](https://github.com/Swapnil52/DBMS-Project#problem-statement)
+ - [Problem Statement](#problem-statement)
+ - [E-R Model](#entity-relation-model)
+ - [Relational Model](#relational-model)
+ - [Screenshots](#screenshots)
+ - [How to build](#how-to-build)
+ - [Project Maintainers](#project-maintainers)
 
 ## Problem Statement
 
@@ -10,7 +14,7 @@ The database will include a set of all branches in the Delhi region, a set of me
 Each customer will be identified by his/her phone number wherein customers with the same address but different phone numbers will be treated as different customers. Upon launching the application, the users will be prompted to enter their phone number where if a match is found, they will be directed to the menu of the closest branch (according to the customer’s address). Otherwise, the customer will be treated as a first time customer and will enter his/her information and then proceed towards the menu.
 Once a customer has registered he/she need not register again. The customer can choose from a variety of food items, in different portion sizes. The customer will be notified with the status of his/her order and name of the delivery person. The customer is expected to rate his/her experience upon (notification of) delivery of the order.
 
-## Enitity-Relation Model
+## Entity Relation Model
 
 <img src = "https://github.com/Swapnil52/DBMS-Project/blob/master/Screenshots/ER%20Diagram.png?raw=true" width = 700>
 
