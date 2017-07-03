@@ -20,7 +20,7 @@ Once a customer has registered he/she need not register again. The customer can 
 
 ## Relational Model
 
-<img src = "https://github.com/Swapnil52/DBMS-Project/blob/master/Screenshots/Relational%20Model.png?raw=true" height = 700>
+<img src = "https://github.com/Swapnil52/DBMS-Project/blob/master/Screenshots/Relational%20Model.png?raw=true">
 
 ## Screenshots
 
