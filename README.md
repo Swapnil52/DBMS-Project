@@ -1,5 +1,8 @@
 # DBMS-Project
 
+## Index
+ - [Problem statement](https://github.com/Swapnil52/DBMS-Project#problem-statement)
+
 ## Problem Statement
 
 The McDonald’s Online Ordering System is a database system designed to facilitate the process of online food ordering. The system will provide a set of features to access unique menu items available in different branches of the aforementioned fast food chain in Delhi, and ordering.
